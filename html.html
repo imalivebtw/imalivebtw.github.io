@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+        <title>test</title>
+    </head>
+    <body>
+        <div id="chooser">
+            <h2 class="pages">page 1</h2>
+            <h2 class="pages">page 2</h2>
+            <h2 class="pages">page 3</h2>
+            <h2 class="pages">page 4</h2>
+            <h2 class="pages">page 5</h2>
+            <h2 class="pages">page 6</h2>
+            <h2 class="pages">page 7</h2>
+            <h2 class="pages">page 8</h2>
+            <h2 class="pages">page 9</h2>
+            <h2 class="pages">page 10</h2>
+        </div>
+        <div id="main">
+            <h1>[insert title here]</h1>
+            <p>[insert text here]</p>
+            <p>
+                <li>point 1<br></li>
+                <li>point 2</li>
+            </p>
+        </div>
+    </body>
+    <style>
+html{
+    text-align: center;
+    background-color: rgb(103, 155, 252);
+}
+#chooser{
+    flex-flow:  column wrap;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgb(116, 186, 255);
+    color: rgb(0, 32, 59);
+    border-radius: 0.4cm;
+}
+#main{
+    font-family: "lato";
+    margin-top: 2%;
+    text-align: start;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgb(116, 186, 255);
+    color: rgb(0, 32, 59);
+    border-radius: 0.4cm;
+    padding: 1.5%;
+    h1{
+        font-family: "Stack Sans Headline", sans-serif;
+        cursor: text;
+        user-select: text;
+    }
+    li{
+        margin-left: 20px;
+    }
+}
+h2{
+    color: rgb(7, 29, 48);
+    font-family: "Short Stack";
+    cursor: pointer;
+    user-select: none;
+}
+.pages{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(195, 216, 255);
+    padding: 0.2cm;
+    border-radius: 0.4cm;
+}
+    </style>
+</html>
